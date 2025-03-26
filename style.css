@@ -17,9 +17,9 @@
     height: 500px;
 }
 
-.grid-item:hover{
-    background-color: aqua;
-}
+/* .grid-item:hover{
+    background-color: aqua;  //usando rgb in js non serve piu questo
+} */
 
 .btn{
     height: 25px;
