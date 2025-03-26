@@ -1,6 +1,6 @@
 let divGrid = [];
 
-const divContainer = document.querySelector(".container");
+const divContainer = document.querySelector(".gridContainer");
 
 
 for( let i=0;i<256;i++){

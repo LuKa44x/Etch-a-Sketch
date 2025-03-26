@@ -1,3 +1,8 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
 .grid-item{
     border: 1px solid black;
     flex:1 0 6.25%;
@@ -5,10 +10,21 @@
     box-sizing: border-box;
 }
 
-.container{
+.gridContainer{
     display:flex;
     flex-wrap: wrap;
     border: 2px solid black;
     width: 500px;
     height: 500px;
+}
+
+.grid-item:hover{
+    background-color: aqua;
+}
+
+.btn{
+    height: 25px;
+    width: auto;
+    border-radius: 10px;
+    
 }
